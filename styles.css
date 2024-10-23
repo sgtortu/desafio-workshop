@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    font-size: 1rem;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1.25rem;
+}
+
+.travel-card {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); /* 4px 8px */
+    overflow: hidden;
+    max-width: 75rem;
+    width: 100%;
+    padding: 2rem;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 1.5rem;
+}
+
+h1 {
+    color: #000;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.location {
+    color: #000;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.row {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 1.5rem;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.image-section {
+    flex: 1 1 18.75rem;
+    min-width: 18.75rem;
+}
+
+.image-section img {
+    border-radius: 1.25rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.details-section {
+    display: flex;
+    min-width: 21.875rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    flex: 1 0 0;
+}
+
+.overview {
+    color: #000;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.875rem;
+
+    border-radius: 0.625rem;
+    border: 1px solid #D6D6D6;
+
+    display: flex;
+    padding: 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    align-self: stretch;
+}
+
+.overview-title {
+    color: #000;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.info-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.info-box {
+    display: flex;
+    padding: 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    align-self: stretch;
+
+    border-radius: 0.625rem;
+    background: #F6F8FC;
+}
+
+.info-box h3 {
+    color: #000;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    align-self: stretch;
+}
+
+.info-box p {
+    color: #000;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.875rem;
+
+    align-self: stretch;
+}
